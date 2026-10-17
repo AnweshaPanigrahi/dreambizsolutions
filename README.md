@@ -49,12 +49,18 @@ Since you already have a Hostinger account, you do **NOT** need to struggle with
 
 If you prefer hosting elsewhere, you can deploy in 1 minute with 100% free SSL (HTTPS):
 
-### Option A: Netlify Drop (Drag & Drop)
+### Option A: GitHub Pages (Automated CI/CD via GitHub Actions)
+1. Push this repository to GitHub.
+2. In your repository on GitHub, navigate to **Settings** > **Pages**.
+3. Under **Build and deployment** > **Source**, choose **GitHub Actions**.
+4. Every commit pushed to `main` will automatically build and publish the live site within seconds!
+
+### Option B: Netlify Drop (Drag & Drop)
 1. Go to [app.netlify.com/drop](https://app.netlify.com/drop).
 2. Drag and drop the `DreambizSolutions` folder directly onto the page.
 3. Your site is live instantly! You can connect your custom domain under Domain Management.
 
-### Option B: Vercel
+### Option C: Vercel
 1. Install Vercel CLI or connect via GitHub: `npx vercel`
 2. Follow the 2 prompts and your site is live with a global CDN.
 
